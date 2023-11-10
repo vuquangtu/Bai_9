@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="5">
+        <tr>
+            <td colspan="4">
+                <input id="result" type="text" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="1" onclick="addValue(1)">
+            </td>
+            <td>
+                <input type="button" value="2" onclick="addValue(2)">
+            </td>
+            <td>
+                <input type="button" value="3" onclick="addValue(3)">
+            </td>
+            <td>
+                <input type="button" value="+" onclick="addValue('+')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="4" onclick="addValue(4)">
+            </td>
+            <td>
+                <input type="button" value="5" onclick="addValue(5)">
+            </td>
+            <td>
+                <input type="button" value="6" onclick="addValue(6)">
+            </td>
+            <td>
+                <input type="button" value="-" onclick="addValue('-')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="7" onclick="addValue(7)">
+            </td>
+            <td>
+                <input type="button" value="8" onclick="addValue(8)">
+            </td>
+            <td>
+                <input type="button" value="9" onclick="addValue(9)">
+            </td>
+            <td>
+                <input type="button" value="x" onclick="addValue('*')">
+            </td>
+        </tr>
+        <tr><td>
+            <input type="button" value="C" onclick="clearData()">
+        </td>
+        <td>
+            <input type="button" value="0" onclick="addValue(0)">
+        </td>
+        <td>
+            <input type="button" value="=" onclick="tinhketqua()">
+        </td>
+        <td>
+            <input type="button" value="/" onclick="addValue('/')">
+        </td></tr> 
+        
+    </table>
+    <script src="./5.js"></script>
+</body>
+</html>
